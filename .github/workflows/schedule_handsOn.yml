@@ -1,12 +1,12 @@
 name : Schedule_handsOn
-
 on:
   schedule:
     -cron : '*/1 * * * *'
 
-job: 
+jobs: 
   schedule_hdsOn:
    run-on : ubuntu-latest
    steps:
     - name: Echo current time
      run: echo "The current server time is $(date)"
+
