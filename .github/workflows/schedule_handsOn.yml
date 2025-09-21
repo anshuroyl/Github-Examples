@@ -5,7 +5,7 @@ on:
 
 jobs: 
   schedule_hdsOn:
-   run-on : ubuntu-latest
+   runs-on : ubuntu-latest
    steps:
     - name: Echo current time
      run: echo "This is current server time is $(date)"
