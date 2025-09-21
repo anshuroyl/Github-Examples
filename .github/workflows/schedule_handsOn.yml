@@ -1,7 +1,7 @@
 name : Schedule_handsOn
 on:
   schedule:
-    - cron: '*/1 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs: 
   schedule_hdsOn:
@@ -9,6 +9,7 @@ jobs:
    steps:
     - name: Echo current time
       run: echo "This is current server time is $(date)"
+
 
 
 
