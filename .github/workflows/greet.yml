@@ -3,7 +3,7 @@ name: Greet
 on: [pull_request_target, issues]
 
 jobs:
-  greeting:
+  greet:
     runs-on: ubuntu-latest
     permissions:
       issues: write
