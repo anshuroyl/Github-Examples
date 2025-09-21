@@ -2,13 +2,13 @@ name : Schedule_handsOn
 on:
   schedule:
     - cron: '*/2 * * * *'
-
 jobs: 
   schedule_hdsOn:
    runs-on : ubuntu-latest
    steps:
     - name: Echo current time
       run: echo "This is current server time is $(date)"
+
 
 
 
